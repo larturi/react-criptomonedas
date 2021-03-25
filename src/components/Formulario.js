@@ -79,6 +79,7 @@ export const Formulario = ({ setMoneda, setCriptomoneda }) => {
             <SelectCripto />
 
             <Boton
+                className="mb-4"
                 type="submit"
                 value="Calcular"
             />

@@ -26,8 +26,8 @@ export const Cotizacion = ({ resultado }) => {
     if ( Object.keys(resultado).length === 0 ) return null;
 
     return (
-        <ResultadoDiv>
-            <Precio>El precio es: <span>{ resultado.PRICE }</span></Precio>
+        <ResultadoDiv className="resultado">
+            <Precio>Cotización: <span>{ resultado.PRICE }</span></Precio>
             <Info>Precio mas alto del día: <span>{ resultado.HIGHDAY }</span></Info>
             <Info>Precio mas bajo del día: <span>{ resultado.LOWDAY }</span></Info>
             <Info>Varición últimas 24 horas: <span>{ resultado.CHANGEPCT24HOUR }</span></Info>
