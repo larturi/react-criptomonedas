@@ -13,7 +13,7 @@ yarn start
 **Prod**
 
 ```shell
-yarn buikd
+yarn build
 ```
 
 ##### Made with ❤️ by Leandro Arturi
